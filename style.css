@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 500px;
+    width: 1000px;
+    border: 2px solid red;
+}
+h2{
+    font-size: 35px;
+    padding-top: 50px;
+    color: red;
+}
+
+.circles{
+    display: flex;
+    padding-top: 13%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.ratio{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner{
+    margin-top: 2%;
+    background-color: red;
+    color: black;
+    font-size: 35px;
+    height: 55px;
+    width: 350px;
+}
+.fbx, .sbx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    border: 2px solid white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    gap: 50px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border: 2px solid white;
+}
+.circle{
+    height: 35px;
+    width: 35px;
+    /* background-color: white; */
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.win-1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+.win-2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+.win-3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
